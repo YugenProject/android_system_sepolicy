@@ -219,3 +219,6 @@ allow system_app system_dlkm_file:file { getattr open read };
 
 # Obscura
 allow system_app obscura_service:service_manager find;
+
+# PowerInsight
+allow system_app power_insight_service:service_manager find;

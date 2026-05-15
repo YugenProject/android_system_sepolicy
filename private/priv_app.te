@@ -11,3 +11,6 @@ bluetooth_domain(priv_app)
 create_pty(priv_app)
 
 priv_app_domain(priv_app)
+
+# PowerInsight
+allow priv_app power_insight_service:service_manager find;

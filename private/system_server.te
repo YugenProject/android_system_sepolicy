@@ -1924,3 +1924,6 @@ neverallowxperm system_server system_server_wrapfd:anon_inode ioctl ~{ dma_buf_i
 
 # Obscura
 add_service(system_server, obscura_service);
+
+# PowerInsight
+add_service(system_server, power_insight_service);

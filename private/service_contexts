@@ -577,4 +577,7 @@ window                                    u:object_r:window_service:s0
 
 # Obscura
 obscura                                   u:object_r:obscura_service:s0
+
+# PowerInsight
+power_insight                             u:object_r:power_insight_service:s0
 *                                         u:object_r:default_android_service:s0
