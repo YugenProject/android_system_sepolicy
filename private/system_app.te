@@ -216,3 +216,6 @@ allow system_app vendor_boot_ota_file:file { r_file_perms };
 # allow system_app to read system_dlkm_file for /system_dlkm/etc/NOTICE.xml.gz
 allow system_app system_dlkm_file:dir search;
 allow system_app system_dlkm_file:file { getattr open read };
+
+# Obscura
+allow system_app obscura_service:service_manager find;

@@ -99,6 +99,9 @@ type theme_service,                     app_api_service, system_server_service, 
 type usb_auth_service,        service_manager_type;
 type hid_service,        app_api_service, service_manager_type;
 
+# Obscura
+type obscura_service, system_api_service, system_server_service, service_manager_type;
+
 ###
 ### Neverallow rules
 ###
